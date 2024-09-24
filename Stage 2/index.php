@@ -24,8 +24,12 @@ function renderAmiibo($arrayOfData)
 
 $content = "";
 // complétez votre code ici (aidez-vous de la fonction renderAmiibo ci-dessus)
-// ??
-
+// $content = $content . renderAmiibo($data[0]);
+// $content = $content . renderAmiibo($data[1]);
+// $content = $content . renderAmiibo($data[2]);
+foreach ($data as $amiibo) {
+    $content .= renderAmiibo($amiibo);
+}
 
 ?>
 <!DOCTYPE>

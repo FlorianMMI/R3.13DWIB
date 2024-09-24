@@ -17,6 +17,14 @@ $archer->price = 58.25;
 $archer->image = "./asset/amiibo-link-archer_2x.png";
 
 // OoOoh, $zelda is missing !
+$zelda = new stdClass();
+$zelda -> title = "Zelda";
+$zelda -> subtitle = "Switch and Switch Lite";
+$zelda -> description = "Cette flèche archéonique vous emmènera loin ! Découvrez
+vite les avantages de cet amiibo compatible avec de multiples jeux";
+$zelda -> price = 62.41;
+$zelda -> image = "./asset/amiibo-zelda_2x.png";
+
 
 $rider = new stdClass();
 $rider->title = "Link [Rider]";

@@ -28,7 +28,11 @@ $zelda_price = 62.41;
 $zelda_image = "./asset/amiibo-zelda_2x.png";
 
 /* Data for Link [Rider] Amiibo */
-// ??
+$rider_title = "Link [Rider]";
+$rider_compatibility = "Wii U, Switch, Switch Lite";
+$rider_description = "Il y  ades chevaux et puis il y a Epona ! découvrez vite les avantages de cet amiibo compatble avec de multiple jeux";
+$rider_price = 54.08;
+$rider_image = "./asset/amiibo-link-rider_2x.png";
 
 
 /*  BILAN (à lire une fois l'exerice terminé)
@@ -47,4 +51,3 @@ $zelda_image = "./asset/amiibo-zelda_2x.png";
     format JSON. 
 
 */
-
